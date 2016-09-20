@@ -102,8 +102,8 @@ int main()
 
 	terabytes = (totElec/8)/(pow(10,12));
 
-	double lowerLim = terabytes - (terabytes * 0.12);
-	double upperLim = terabytes + (terabytes * 0.12);
+	double lowerLim = terabytes - (terabytes * 0.25);
+	double upperLim = terabytes + (terabytes * 0.25);
 
 	// don't forget to divide by 8 since every electron is a bit not a bytes
 	// and represent it in terabytes
